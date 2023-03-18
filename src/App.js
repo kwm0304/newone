@@ -1,15 +1,17 @@
 import './App.css';
-import Home from './components/Home';
-import CharacterSheet from './components/Forms/CharacterSheet';
-/* */
+import TextField from './components/Forms/text-field';
+import { useState } from 'react';
+import StatsForm from './Form';
 //fix dnd character sheet
+
+
+const handleChange = (event) => {
+
+}
 function App() {
-  return (
-    <div className="App">
-      
-      <CharacterSheet />
-    </div>
-  );
+  return(
+    <StatsForm />
+  )
 }
 
 export default App;
